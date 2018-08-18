@@ -10,47 +10,33 @@ plugins:
   extra: plugins/enabled
 
 # The networks we'll connect to
-networks:
-
-  # Default entries, may be overwritten per server
-  defaults:
-    realname: CinchBot
-    user: cinchbot
-    nicks: 
-      - CinchBot
-
-  dalnet:
-    server: irc.dal.net
-
-    log_file: cinchbot.log
-    auth_file: dalnet.yml
-
-    channels:
-      - '#cinchbot'
-
-    sasl:
-      username: username
-      password: password
-
-    auth:
-      owner: your_auth_name
-      admins:
-        - admin1_auth_name
-        - admin2_auth_name
-      users:
-        - user1_auth_name
-        - user2_auth_name
 
   freenode:
     server: irc.freenode.net
-    nick: conchbot
-
-    log_file: cinchbot.log
-    auth_file: freenode.yml
+    nicks: [		"ponydestroyer", 
+                "albator2088", 
+                "bananatorz", 
+                "pot_a_toe", 
+                "sslipzor", 
+                "neinnonon", 
+                "oignonringo", 
+                "cheveu2feu", 
+                "blabliblouz", 
+                "proutozorus", 
+                "tirlipimpon", 
+                "foufinoufoufou", 
+                "bonhome_en_mousse", 
+                "polakvampire", 
+                "vvvvvvvvvvv", 
+                "_underscoretaker_", 
+                "BulkGloghan", 
+                "maskedpotato", 
+                "poupipoupipou", 
+                "octopidou", 
+                "popopokaface", 
+                "modafuda69"]
 
     channels:
-      - '#cinch-bots'
+      - '#go'
 
-    sasl:
-      username: username
-      password: password
+   
